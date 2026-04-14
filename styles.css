@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif !important;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #F9DFDF;
+    padding: 5px;
+}
+
+nav {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 3% !important;
+    margin-bottom: 5px !important;
+    border-radius: 15px;
+    height: 82px;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    color: #881337;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #71717A;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu li a:hover{
+    color:#881337;
+}
+
+.portada {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    color: #6D5A5A;
+    padding: 25px 90px 0px 90px;
+
+}
+
+.portada-img {
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.portada-title {
+    color: black;
+    font-size: 63px;
+    margin-bottom: 52px;
+    font-weight: 800;
+}
+
+.portada-title__span{
+    color: #864F50;
+}
+
+.portada-subtitle {
+    font-size: 18px;
+    font-weight: 372;
+    margin-bottom: 101px;
+    max-width: 100%;
+    text-wrap: wrap;
+}
+
+.sobre-mi {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    height: 80vh;
+    color: #524343;
+    padding: 0 30px;
+}
+
+.container-sobre-mi {
+  padding-left: 100px;
+}
+
+.sobre-mi-title {
+    color: #1C1B1C;
+    font-size: 47px;
+    font-weight: bold;
+}
+
+.sobre-mi-subtitle {
+    font-size: 18px;
+    font-weight: 400;/*peso de fuente*/
+    text-align: left;
+}
+
+.sobre-mi__img{
+    display: flex;
+}
+
+.hobby-img,.viaje-img{
+    border-radius: 10px;
+}
+
+.hobby-img{
+    width: 250px;
+    height: 415px;
+    margin-right: 10px;
+}
+
+.viaje-container{
+    width: 100%;
+    display:flex;
+    align-items: flex-end;
+}
+
+.viaje-img{
+    width: 250px;
+    height: 375px;
+}
+
+
+.estudios {
+    background-color: #FCF8F8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #6D5A5A;
+    padding: 50px 90px 0px 90px;
+}
+
+.estudios-title {
+    color: #1C1B1C;
+    font-size: 47px;
+    margin-bottom: 52px;
+    font-weight: bold;
+}
+
+.estudios-subtitle {
+    font-size: 18px;
+    font-weight: 372;
+    margin-bottom: 101px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.cuadrado-fondo {
+    width: 100%;
+    height: 481px;
+    background-color: #FBEFEF;
+    padding:20px;
+}
+
+.objetivos-container {
+    width: 100%;
+    height: 391px;
+    overflow-y: hidden;
+    white-space: nowrap;
+    color: #524343;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.objetivos-item {
+    display: flex;
+}
+
+.objetivos-card {
+    background: white;
+    width: 231px;
+    height: 299px;
+    margin: 5px 10px 0 0;
+    border-radius: 80px;
+}
+
+.objetivos-img {
+    width: 64px;
+    height: 64px;
+    margin: 30px 0 40px 0;
+}
+
+.objetivos-text-title{
+
+    font-weight: bold;  
+    color: #1C1B1C;
+    font-size: 18px;
+}
+
+.objetivos-title{
+    text-align: center;
+    color: #1C1B1C;
+    font-size: 47px;
+    font-weight: bold;
+}
+
+.card-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left:14px;
+    width:100%;
+}
+
+.footer-container {
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 241, 242, 0.3);
+    color: white;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 10px;
+    padding: 20px 0;
+}
+
+.footer-item {
+    align-items: center;
+    width:27%;
+}
+
+.footer-title {
+    color: #881337;
+}
+
+.footer-text {
+    font-size: 16px;
+    margin-right: 10px;
+}
